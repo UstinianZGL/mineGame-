@@ -1,0 +1,99 @@
+.all-buttons{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.all-buttons button{
+    width: 72px;
+    height: 34px;
+    background-color: #02a4ad;
+    margin-right: 6px;
+    line-height: 34px;
+    font-size: 14px;
+    /* font-weight: bold; */
+    border:none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.all-buttons .click-button{
+    background-color: #00abff;
+}
+
+.surplus{
+    text-align: center;
+    margin-top: 15px;
+}
+table{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    background-color: #929196;
+}
+.game-boxs{
+    position: relative;
+}
+td{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+   text-align: center;
+   font-weight: bold;
+   background-color: #ccc;
+   border: 2px solid;
+   border-color: #fff #a1a1a1 #a1a1a1 #fff;
+}
+td.mine{
+    background: #c9c9c9 url(../images/mine.png) no-repeat center;
+    background-size: cover;
+}
+td.flag{
+    background: #ccc url(../images/flag.png) no-repeat center;
+    background-size: cover;
+}
+td.zero{
+	border-color: #d9d9d9;
+	background: #d9d9d9;
+}
+td.one{
+	border-color: #d9d9d9;
+	background: #d9d9d9;
+	color: #0332fe;
+}
+td.two{
+	border-color: #d9d9d9;
+	background: #d9d9d9;
+	color: #019f02;
+}
+td.three{
+	border-color: #d9d9d9;
+	background: #d9d9d9;
+	color: #ff2600;
+}
+td.four{
+	border-color: #d9d9d9;
+	background: #d9d9d9;
+	color: #93208f;
+}
+td.five{
+	border-color: #d9d9d9;
+	background: #d9d9d9;
+	color: #ff7f29;
+}
+td.six{
+	border-color: #d9d9d9;
+	background: #d9d9d9;
+	color: #ff3fff;
+}
+td.seven{
+	border-color: #d9d9d9;
+	background: #d9d9d9;
+	color: #3fffbf;
+}
+td.eight{
+	border-color: #d9d9d9;
+	background: #d9d9d9;
+	color: #22ee0f;
+}
